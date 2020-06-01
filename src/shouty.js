@@ -1,14 +1,22 @@
 class Person {
+  constructor() {
+    this.messages = [];
+  }
+
   moveTo(distance) {
 
   }
 
   shout(message) {
+    this.messages.push(message)
+  }
 
+  heard(message) {
+    this.messages.push(message);
   }
 
   messageHeard() {
-    return ["free beagls at Sean's"];
+    return this.messages;
   }
 }
 

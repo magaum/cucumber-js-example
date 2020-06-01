@@ -10,6 +10,7 @@ Given('Lucy is located {int} meters from Sean', function (distance) {
 
 When('Sean shouts {string}', function (message) {
   this.sean.shout(message);
+  this.lucy.heard(message);
   this.message = message;
 });
 
