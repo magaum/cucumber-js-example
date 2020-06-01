@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo Iniciando testes && cucumber-js"
+    "test": "echo Iniciando testes && cucumber-js -f node_modules/cucumber-pretty"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cucumber": "^6.0.5",
-    "cucumber-pretty": "^6.0.0"
+    "cucumber-pretty": "^6.0.0",
+    "hamjest": "^3.5.0"
   }
 }
