@@ -10,7 +10,7 @@ Dependências:
 
 ## Conceitos
 
-**Gherkin:** É um formato em que as funcionalidades (Features) do sistema são escritas com palavras reservadas. É possível alterar o idioma adicionando a linha **# language: [idioma]** no início do arquivo.
+**Gherkin:** É a sintaxe de escrita que é compreendida pelo Cucumber. Um formato em que as funcionalidades (Features) do sistema são escritas. É possível alterar o idioma adicionando a linha **# language: [idioma]** no início do arquivo.
 
 **Step definitions:** São os comportamentos esperados nas etapas descritas na especificação (Arquivo .feature). Quando os testes são executados pelo Cucumber, cada palavra reservada (Given, When, Then) é uma etapa. Em cada etapa, seu comportamento é procurado e executado na linguagem de teste (Javascript nesse caso), portanto é preciso descrever o que irá acontecer nos casos de sucesso e erro esperados.
 
