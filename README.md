@@ -10,9 +10,9 @@ Dependências:
 
 ## Conceitos
 
-**Gherkin:** É um formato em que as funcionalidades (Features) do sistema são escritas com palavaras reservadas. É possível alterar o idioma adicionando a linha **# language: [idioma]** no inicio do arquivo.
+**Gherkin:** É um formato em que as funcionalidades (Features) do sistema são escritas com palavras reservadas. É possível alterar o idioma adicionando a linha **# language: [idioma]** no início do arquivo.
 
-**Step definitions:** São os comportamentos esperados nas etapas descritas na especificação (Arquivo .feature). Quando os testes são executados pelo Cucumber, cada palavra reservada (Given, When, Then) é uma etapa. Em cada etapa, seu comportamento é procudado e executado na linguagem de teste (Javascript nesse caso), portanto é preciso descrever o que irá acontecer nos casos de sucesso e erro esperados.
+**Step definitions:** São os comportamentos esperados nas etapas descritas na especificação (Arquivo .feature). Quando os testes são executados pelo Cucumber, cada palavra reservada (Given, When, Then) é uma etapa. Em cada etapa, seu comportamento é procurado e executado na linguagem de teste (Javascript nesse caso), portanto é preciso descrever o que irá acontecer nos casos de sucesso e erro esperados.
 
 **Behavior Driven Development (BDD):** É uma forma do time de desenvolvimento de software aproximar-se do pessoal negócio com documentos que descrevem os comportamentos do sistema. A cada iteração estes documentos são criados com o pessoal técnico e de negócio. Todo o desenvolvimento é baseado nestes documentos pois são o consenso entre ambas as partes, desta forma é possível aumentar a assertividade e o valor nas entregas durantes o processo de desenvolvimento.
 
